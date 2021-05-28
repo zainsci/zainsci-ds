@@ -1,0 +1,15 @@
+{
+  "name": "zainsci-ds",
+  "version": "1.0.0",
+  "description": "A personal Design System for zainsci's Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design-system",
+    "design"
+  ],
+  "author": "zainsci",
+  "license": "MIT"
+}

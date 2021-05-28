@@ -1,0 +1,24 @@
+$colors: (
+  "gray": $gray,
+  "red": $red,
+  "green": $green,
+  "blue": $blue,
+  "yellow": $yellow,
+  "orange": $orange,
+  "purple": $purple,
+  "pink": $pink,
+);
+
+:root {
+  @each $color-name, $color in $colors {
+    --#{$color-name}-100: #{tint($color, 80%)};
+    --#{$color-name}-200: #{tint($color, 60%)};
+    --#{$color-name}-300: #{tint($color, 40%)};
+    --#{$color-name}-400: #{tint($color, 20%)};
+    --#{$color-name}-500: #{$color};
+    --#{$color-name}-600: #{shade($color, 20%)};
+    --#{$color-name}-700: #{shade($color, 40%)};
+    --#{$color-name}-800: #{shade($color, 60%)};
+    --#{$color-name}-900: #{shade($color, 80%)};
+  }
+}
