@@ -44,12 +44,12 @@ $line-height-md: 1.5;
 $line-height-lg: 2;
 
 // --------------------
-// Padding
+// Spacing
 // --------------------
-$padding-base: 0.25rem;
+$spacing-base: 0.25rem;
 
-$padding-nav: ($padding-base * 4) ($padding-base * 6);
-$padding-nav-link: ($padding-base * 2) ($padding-base * 4);
+$padding-nav: ($spacing-base * 4) ($spacing-base * 6);
+$padding-nav-link: ($spacing-base * 2) ($spacing-base * 4);
 
 // --------------------
 // Border

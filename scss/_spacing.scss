@@ -1,13 +1,13 @@
 @for $i from 1 to 21 {
   .p-#{$i} {
-    padding: $padding-base * $i;
+    padding: $spacing-base * $i;
   }
   .px-#{$i} {
-    padding-left: $padding-base * $i;
-    padding-right: $padding-base * $i;
+    padding-left: $spacing-base * $i;
+    padding-right: $spacing-base * $i;
   }
   .py-#{$i} {
-    padding-top: $padding-base * $i;
-    padding-bottom: $padding-base * $i;
+    padding-top: $spacing-base * $i;
+    padding-bottom: $spacing-base * $i;
   }
 }

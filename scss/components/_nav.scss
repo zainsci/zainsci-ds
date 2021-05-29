@@ -6,6 +6,16 @@
   padding: $padding-nav;
 }
 
+.nav__vertical {
+  flex-direction: column;
+  align-items: flex-start;
+
+  .nav__item + .nav__item {
+    margin: 0;
+    margin-bottom: $spacing-base;
+  }
+}
+
 .nav .brand {
   font-family: $font-secondary;
   font-size: $font-size-h3;
@@ -42,5 +52,5 @@
 }
 
 .nav__item + .nav__item {
-  margin-left: $padding-base * 2;
+  margin-left: $spacing-base * 2;
 }
