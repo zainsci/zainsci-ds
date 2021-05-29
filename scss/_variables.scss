@@ -1,3 +1,7 @@
+// --------------------
+// Colors
+// --------------------
+
 $gray: #8d99ae;
 $red: #ec4740;
 $green: #28a745;
@@ -6,3 +10,30 @@ $yellow: #ffbd00;
 $orange: #ff6d00;
 $purple: #7400b8;
 $pink: #bf36b4;
+
+// --------------------
+// Typography
+// --------------------
+
+$ff-montserrat: "Montserrat", sans-serif;
+$ff-merriweather: "Merriweather", serif;
+
+$font-primary: $ff-montserrat;
+$font-secondary: $ff-merriweather;
+
+$font-base-size: 1rem;
+
+$font-size-sm: $font-base-size * 0.875;
+$font-size-md: $font-base-size * 1;
+$font-size-lg: $font-base-size * 1.25;
+
+$font-size-h1: $font-base-size * 2.5;
+$font-size-h2: $font-base-size * 2;
+$font-size-h3: $font-base-size * 1.75;
+$font-size-h4: $font-base-size * 1.5;
+$font-size-h5: $font-base-size * 1.25;
+$font-size-h6: $font-base-size;
+
+$line-height-sm: 1.25;
+$line-height-md: 1.5;
+$line-height-lg: 2;
