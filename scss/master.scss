@@ -1,4 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Merriweather:wght@300;400;700&display=swap");
+
+@import "./helpers/normalize";
 @import "./variables";
+@import "./html";
 @import "./utils";
 
 @import "./colors";
+@import "./spacing";
+@import "./type";
+
+@import "./components/nav";

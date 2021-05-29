@@ -11,6 +11,11 @@ $orange: #ff6d00;
 $purple: #7400b8;
 $pink: #bf36b4;
 
+$color-nav: var(--gray-900);
+$color-nav-link: var(--gray-700);
+$color-nav-link-hover: var(--gray-900);
+$background-navlink-hover: var(--gray-100);
+
 // --------------------
 // Typography
 // --------------------
@@ -37,3 +42,25 @@ $font-size-h6: $font-base-size;
 $line-height-sm: 1.25;
 $line-height-md: 1.5;
 $line-height-lg: 2;
+
+// --------------------
+// Padding
+// --------------------
+$padding-base: 0.25rem;
+
+$padding-nav: ($padding-base * 4) ($padding-base * 6);
+$padding-nav-link: ($padding-base * 2) ($padding-base * 4);
+
+// --------------------
+// Border
+// --------------------
+
+$boder-base: 0.25rem;
+
+$nav-border-radius: $boder-base * 2;
+
+// --------------------
+// Transition
+// --------------------
+
+$transition-nav-link: all 0.15s ease-in-out;
