@@ -22,3 +22,13 @@ $colors: (
     --#{$color-name}-900: #{shade($color, 80%)};
   }
 }
+
+@each $color-name, $color in $colors {
+  @for $i from 100 to 901 {
+    @if $i % 100 == 0 {
+      .bg-#{$color-name}-#{$i} {
+        background-color: var(--#{$color-name}-#{$i});
+      }
+    }
+  }
+}
