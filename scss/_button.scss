@@ -1,0 +1,55 @@
+.btn {
+  display: inline-block;
+  min-width: $btn-min-width;
+  font-weight: 500;
+  line-height: 1.5;
+  color: $color-dark;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: $paddin-btn;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: $transtiton-btn;
+
+  &:active {
+    animation: btn-active 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  }
+}
+
+@keyframes btn-active {
+  50% {
+    transform: translateY(1px);
+  }
+}
+
+.btn-red {
+  background-color: $red-500;
+  color: $color-light;
+  border-color: $red-500;
+
+  &:hover {
+    background-color: $red-600;
+  }
+}
+.btn-green {
+  background-color: $green-500;
+  color: $color-light;
+  border-color: $green-500;
+
+  &:hover {
+    background-color: $green-600;
+  }
+}
+.btn-blue {
+  background-color: $blue-500;
+  color: $color-light;
+  border-color: $blue-500;
+
+  &:hover {
+    background-color: $blue-600;
+  }
+}

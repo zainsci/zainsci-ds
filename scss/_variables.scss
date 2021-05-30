@@ -11,6 +11,39 @@ $orange: #ff6d00;
 $purple: #7400b8;
 $pink: #bf36b4;
 
+$color-dark: #000;
+$color-light: #fff;
+
+$red-100: var(--red-100);
+$red-200: var(--red-200);
+$red-300: var(--red-300);
+$red-400: var(--red-400);
+$red-500: var(--red-500);
+$red-600: var(--red-600);
+$red-700: var(--red-700);
+$red-800: var(--red-800);
+$red-900: var(--red-900);
+
+$green-100: var(--green-100);
+$green-200: var(--green-200);
+$green-300: var(--green-300);
+$green-400: var(--green-400);
+$green-500: var(--green-500);
+$green-600: var(--green-600);
+$green-700: var(--green-700);
+$green-800: var(--green-800);
+$green-900: var(--green-900);
+
+$blue-100: var(--blue-100);
+$blue-200: var(--blue-200);
+$blue-300: var(--blue-300);
+$blue-400: var(--blue-400);
+$blue-500: var(--blue-500);
+$blue-600: var(--blue-600);
+$blue-700: var(--blue-700);
+$blue-800: var(--blue-800);
+$blue-900: var(--blue-900);
+
 $color-nav: var(--gray-900);
 $color-nav-link: var(--gray-700);
 $color-nav-link-hover: var(--gray-900);
@@ -50,6 +83,9 @@ $spacing-base: 0.25rem;
 
 $padding-nav: ($spacing-base * 4) ($spacing-base * 6);
 $padding-nav-link: ($spacing-base * 2) ($spacing-base * 4);
+$paddin-btn: ($spacing-base) ($spacing-base * 4);
+
+$btn-min-width: $spacing-base * 20;
 
 // --------------------
 // Border
@@ -64,3 +100,4 @@ $nav-border-radius: $boder-base * 2;
 // --------------------
 
 $transition-nav-link: all 0.15s ease-in-out;
+$transtiton-btn: all 0.15s ease-in-out;
