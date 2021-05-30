@@ -81,6 +81,9 @@ $line-height-lg: 2;
 // --------------------
 $spacing-base: 0.25rem;
 
+$headings-margin-botton: $spacing-base * 6;
+$para-margin-bottom: $spacing-base * 4;
+
 $padding-nav: ($spacing-base * 4) ($spacing-base * 6);
 $padding-nav-link: ($spacing-base * 2) ($spacing-base * 4);
 $paddin-btn: ($spacing-base) ($spacing-base * 4);
