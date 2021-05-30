@@ -10,4 +10,19 @@
     padding-top: $spacing-base * $i;
     padding-bottom: $spacing-base * $i;
   }
+  .m-#{$i} {
+    margin: $spacing-base * $i;
+  }
+  .mx-#{$i} {
+    margin-left: $spacing-base * $i;
+    margin-right: $spacing-base * $i;
+  }
+  .my-#{$i} {
+    margin-top: $spacing-base * $i;
+    margin-bottom: $spacing-base * $i;
+  }
+}
+
+.mt-auto {
+  margin-top: auto;
 }
