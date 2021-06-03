@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <nav className="nav navbar">
+      <nav className="nav navbar container">
         <div className="brand">DS</div>
         <ul className="nav__list">
           <li className="nav__item">

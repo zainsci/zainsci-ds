@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  padding-left: $spaceing-sm;
+  padding-right: $spaceing-sm;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $breakpoint-xs) {
+    max-width: $breakpoint-xs - 3rem;
+  }
+  @media (min-width: $breakpoint-sm) {
+    max-width: $breakpoint-sm - 3rem;
+  }
+  @media (min-width: $breakpoint-md) {
+    max-width: $breakpoint-md - 3rem;
+  }
+  @media (min-width: $breakpoint-lg) {
+    max-width: $breakpoint-lg - 3rem;
+  }
+  @media (min-width: $breakpoint-xl) {
+    max-width: $breakpoint-xl - 3rem;
+  }
+}
