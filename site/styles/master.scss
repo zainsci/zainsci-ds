@@ -16,3 +16,11 @@ img {
   width: 100%;
   height: auto;
 }
+#__next {
+  display: flex;
+  flex-direction: column;
+
+  main {
+    flex: 1;
+  }
+}
