@@ -4,8 +4,29 @@
   flex-wrap: nowrap;
 }
 
+.col {
+  flex: 1;
+}
+
+$gutters: (
+  "sm": $gutter-sm,
+  "md": $gutter-md,
+  "lg": $gutter-lg,
+);
+
+@each $gutter, $gutter-size in $gutters {
+  .grid.g-#{$gutter} {
+    gap: $gutter-size;
+    @for $i from 1 to 13 {
+      .col-#{$i} {
+        width: calc(#{(100% / 12) * $i} - #{$gutter-size});
+      }
+    }
+  }
+}
+
 @for $i from 1 to 13 {
   .col-#{$i} {
-    flex: #{$i};
+    width: (100% / 12) * $i;
   }
 }

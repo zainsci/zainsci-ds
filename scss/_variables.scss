@@ -93,6 +93,12 @@ $spaceing-md: $spaceing-sm * 2; // 32px
 $spaceing-lg: $spaceing-md * 2; // 64px
 $spaceing-xl: $spaceing-lg * 2; // 128px
 
+$gutter-base: $spacing-base * 2;
+
+$gutter-sm: $gutter-base * 2; // 1rem
+$gutter-md: $gutter-base * 4; // 2rem
+$gutter-lg: $gutter-base * 8; // 4rem
+
 $headings-margin-botton: $spacing-base * 6;
 $para-margin-bottom: $spacing-base * 4;
 
